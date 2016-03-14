@@ -1,0 +1,82 @@
+@font-face {
+font-family: '3Dumb';
+src: url('font/3dumb.ttf');
+}
+
+header {
+    color: #66c2ff;
+    font-size: 55px;
+    text-align: center;
+    font-family: 3Dumb;
+   }
+
+.nav { 
+    display: block;
+}
+.nav ul li {
+    list-style: none;
+}
+.nav ul li a {
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding:  20px 30px;
+    font-size: 20px;
+    color: black;
+    font-family: Garamond;
+}
+.nav ul li a:hover {
+    color: white;
+    font-size: 16px
+    Float: center;
+}
+
+
+body {
+    background-color: #ffe6ff;
+    opacity: 0.8;
+    width: 90%;
+    margin: 0 auto;
+}
+
+tr td {
+    border: solid 15px #c94dff;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #c94dff;
+    -moz-box-shadow: 10px 10px 10px 10px #777777;  
+-webkit-box-shadow: 10px 10px 10px 10px #777777; 
+box-shadow: 10px 10px 10px 10px #777777;
+float: center;
+}
+
+td img.resize{
+    width:500px; 
+    height: auto;
+    margin: 5px;
+}
+
+th {
+    color: #ffa31a;
+    font-size:30px;
+    margin: 5px;
+}
+
+h1 {
+	font-family: Garamond;
+    color: #9966FF;
+    margin: 5px;
+}
+ol{
+	font-family: Garamond;
+    color: #9966FF;
+    margin: 5px;
+    padding: 10px;
+}
+
+p {
+    font-family: Garamond;
+    color: #FF0000;
+}
