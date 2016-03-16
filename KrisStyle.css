@@ -1,15 +1,16 @@
 @font-face {
-font-family: '3Dumb';
-src: url('font/3dumb.ttf');
+font-family: 'Amadeus';
+src: url('font/Amadeus.ttf');
 }
+
 
 header {
     color: #66c2ff;
     font-size: 55px;
     text-align: center;
-    font-family: 3Dumb;
+    font-family: Amadeus;
    }
-
+   
 .nav { 
     display: block;
 }
