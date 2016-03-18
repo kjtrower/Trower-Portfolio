@@ -1,14 +1,14 @@
 @font-face {
-font-family: 'Amadeus';
+font-family:'Amadeus';
 src: url('font/Amadeus.ttf');
 }
 
 
 header {
     color: #66c2ff;
-    font-size: 55px;
+    font-size: 65px;
     text-align: center;
-    font-family: Amadeus;
+    font-family:Amadeus;
    }
    
 .nav { 
@@ -22,7 +22,7 @@ header {
     float: left;
     display: block;
     padding:  20px 30px;
-    font-size: 20px;
+    font-size: 30px;
     color: black;
     font-family: Garamond;
 }
@@ -40,26 +40,26 @@ body {
     margin: 0 auto;
 }
 
-tr td {
-    border: solid 15px #c94dff;
+table.table1 tr td {
+    border: solid 15px #FF9900;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    background-color: #c94dff;
+    background-color: #FF9900;
     -moz-box-shadow: 10px 10px 10px 10px #777777;  
 -webkit-box-shadow: 10px 10px 10px 10px #777777; 
 box-shadow: 10px 10px 10px 10px #777777;
 float: center;
 }
 
-td img.resize{
+table.table1 td img.resize{
     width:500px; 
     height: auto;
     margin: 5px;
 }
 
-th {
+table.table1 th {
     color: #ffa31a;
     font-size:30px;
     margin: 5px;
@@ -67,12 +67,12 @@ th {
 
 h1 {
 	font-family: Garamond;
-    color: #9966FF;
+    color: #CC33CC;
     margin: 5px;
 }
 ol{
 	font-family: Garamond;
-    color: #9966FF;
+    color: #CC33CC;
     margin: 5px;
     padding: 10px;
 }
@@ -80,4 +80,28 @@ ol{
 p {
     font-family: Garamond;
     color: #FF0000;
+}
+table.table2 tr td {
+    border: solid 15px #9999FF;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #9999FF;
+    -moz-box-shadow: 10px 10px 10px 10px #777777;  
+-webkit-box-shadow: 10px 10px 10px 10px #777777; 
+box-shadow: 10px 10px 10px 10px #777777;
+float: center;
+}
+
+table.table2 td img.resize{
+    width: 500px; 
+    height: auto;
+    margin: 5px;
+    }
+
+  table.table2  th {
+    color: #9966FF;
+    font-size:45px;
+    margin: 5px;
 }
