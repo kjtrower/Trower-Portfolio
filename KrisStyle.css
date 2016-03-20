@@ -28,7 +28,7 @@ header {
 }
 .nav ul li a:hover {
     color: white;
-    font-size: 16px
+    font-size: 16px;
     Float: center;
 }
 
@@ -48,12 +48,12 @@ table.table1 tr td {
     border-bottom-right-radius: 30px;
     background-color: #FF9900;
     -moz-box-shadow: 10px 10px 10px 10px #777777;  
--webkit-box-shadow: 10px 10px 10px 10px #777777; 
-box-shadow: 10px 10px 10px 10px #777777;
-float: center;
+    -webkit-box-shadow: 10px 10px 10px 10px #777777; 
+    box-shadow: 10px 10px 10px 10px #777777;
+    float: center;
 }
 
-table.table1 td img.resize{
+table.table1 td img.resize {
     width:500px; 
     height: auto;
     margin: 5px;
